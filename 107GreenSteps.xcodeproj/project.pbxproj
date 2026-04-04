@@ -3,33 +3,89 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		746A09BC2F8134DA0076A047 /* Color+GreenSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A098E2F8134DA0076A047 /* Color+GreenSteps.swift */; };
+		746A09BD2F8134DA0076A047 /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A09902F8134DA0076A047 /* AppLinks.swift */; };
+		746A09BE2F8134DA0076A047 /* DateFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A09912F8134DA0076A047 /* DateFormatting.swift */; };
+		746A09BF2F8134DA0076A047 /* EcoAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A09932F8134DA0076A047 /* EcoAction.swift */; };
+		746A09C02F8134DA0076A047 /* EcoChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A09942F8134DA0076A047 /* EcoChallenge.swift */; };
+		746A09C12F8134DA0076A047 /* EcoGoal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A09952F8134DA0076A047 /* EcoGoal.swift */; };
+		746A09C22F8134DA0076A047 /* EcoHabit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A09962F8134DA0076A047 /* EcoHabit.swift */; };
+		746A09C32F8134DA0076A047 /* EcoStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A09972F8134DA0076A047 /* EcoStats.swift */; };
+		746A09C42F8134DA0076A047 /* HabitCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A09982F8134DA0076A047 /* HabitCategory.swift */; };
+		746A09C52F8134DA0076A047 /* GreenStepsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A099A2F8134DA0076A047 /* GreenStepsViewModel.swift */; };
+		746A09C62F8134DA0076A047 /* ActionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A099C2F8134DA0076A047 /* ActionRow.swift */; };
+		746A09C72F8134DA0076A047 /* GoalCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A099D2F8134DA0076A047 /* GoalCard.swift */; };
+		746A09C82F8134DA0076A047 /* HabitCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A099E2F8134DA0076A047 /* HabitCard.swift */; };
+		746A09C92F8134DA0076A047 /* HabitDetailCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A099F2F8134DA0076A047 /* HabitDetailCard.swift */; };
+		746A09CA2F8134DA0076A047 /* StatCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A09A02F8134DA0076A047 /* StatCard.swift */; };
+		746A09CB2F8134DA0076A047 /* AddActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A09A22F8134DA0076A047 /* AddActionView.swift */; };
+		746A09CC2F8134DA0076A047 /* AddGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A09A32F8134DA0076A047 /* AddGoalView.swift */; };
+		746A09CD2F8134DA0076A047 /* AddHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A09A42F8134DA0076A047 /* AddHabitView.swift */; };
+		746A09CE2F8134DA0076A047 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A09A52F8134DA0076A047 /* DashboardView.swift */; };
+		746A09CF2F8134DA0076A047 /* EditActionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A09A62F8134DA0076A047 /* EditActionView.swift */; };
+		746A09D02F8134DA0076A047 /* EditGoalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A09A72F8134DA0076A047 /* EditGoalView.swift */; };
+		746A09D12F8134DA0076A047 /* EditHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A09A82F8134DA0076A047 /* EditHabitView.swift */; };
+		746A09D22F8134DA0076A047 /* GoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A09A92F8134DA0076A047 /* GoalsView.swift */; };
+		746A09D32F8134DA0076A047 /* HabitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A09AA2F8134DA0076A047 /* HabitsView.swift */; };
+		746A09D42F8134DA0076A047 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A09AB2F8134DA0076A047 /* HomeView.swift */; };
+		746A09D52F8134DA0076A047 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A09AC2F8134DA0076A047 /* OnboardingView.swift */; };
+		746A09D62F8134DA0076A047 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A09AD2F8134DA0076A047 /* SettingsView.swift */; };
+		746A09D72F8134DA0076A047 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A09AE2F8134DA0076A047 /* StatsView.swift */; };
+		746A09D82F8134DA0076A047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A09B12F8134DA0076A047 /* AppDelegate.swift */; };
+		746A09D92F8134DA0076A047 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A09B32F8134DA0076A047 /* ContentView.swift */; };
+		746A09DA2F8134DA0076A047 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A09B92F8134DA0076A047 /* SceneDelegate.swift */; };
+		746A09DB2F8134DA0076A047 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A09BA2F8134DA0076A047 /* ViewController.swift */; };
+		746A09DC2F8134DA0076A047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746A09B22F8134DA0076A047 /* Assets.xcassets */; };
+		746A09DE2F8134DA0076A047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746A09B62F8134DA0076A047 /* LaunchScreen.storyboard */; };
+		746A09DF2F8134DA0076A047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746A09B82F8134DA0076A047 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		59821C911EDB12ADC8A988C0 /* Pods-107GreenSteps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-107GreenSteps.release.xcconfig"; path = "Target Support Files/Pods-107GreenSteps/Pods-107GreenSteps.release.xcconfig"; sourceTree = "<group>"; };
 		7451FBBC2F73B53A00C72359 /* 107GreenSteps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 107GreenSteps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		746A098E2F8134DA0076A047 /* Color+GreenSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+GreenSteps.swift"; sourceTree = "<group>"; };
+		746A09902F8134DA0076A047 /* AppLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLinks.swift; sourceTree = "<group>"; };
+		746A09912F8134DA0076A047 /* DateFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatting.swift; sourceTree = "<group>"; };
+		746A09932F8134DA0076A047 /* EcoAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoAction.swift; sourceTree = "<group>"; };
+		746A09942F8134DA0076A047 /* EcoChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoChallenge.swift; sourceTree = "<group>"; };
+		746A09952F8134DA0076A047 /* EcoGoal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoGoal.swift; sourceTree = "<group>"; };
+		746A09962F8134DA0076A047 /* EcoHabit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoHabit.swift; sourceTree = "<group>"; };
+		746A09972F8134DA0076A047 /* EcoStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcoStats.swift; sourceTree = "<group>"; };
+		746A09982F8134DA0076A047 /* HabitCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCategory.swift; sourceTree = "<group>"; };
+		746A099A2F8134DA0076A047 /* GreenStepsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenStepsViewModel.swift; sourceTree = "<group>"; };
+		746A099C2F8134DA0076A047 /* ActionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionRow.swift; sourceTree = "<group>"; };
+		746A099D2F8134DA0076A047 /* GoalCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCard.swift; sourceTree = "<group>"; };
+		746A099E2F8134DA0076A047 /* HabitCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitCard.swift; sourceTree = "<group>"; };
+		746A099F2F8134DA0076A047 /* HabitDetailCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitDetailCard.swift; sourceTree = "<group>"; };
+		746A09A02F8134DA0076A047 /* StatCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatCard.swift; sourceTree = "<group>"; };
+		746A09A22F8134DA0076A047 /* AddActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddActionView.swift; sourceTree = "<group>"; };
+		746A09A32F8134DA0076A047 /* AddGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGoalView.swift; sourceTree = "<group>"; };
+		746A09A42F8134DA0076A047 /* AddHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitView.swift; sourceTree = "<group>"; };
+		746A09A52F8134DA0076A047 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		746A09A62F8134DA0076A047 /* EditActionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditActionView.swift; sourceTree = "<group>"; };
+		746A09A72F8134DA0076A047 /* EditGoalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditGoalView.swift; sourceTree = "<group>"; };
+		746A09A82F8134DA0076A047 /* EditHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditHabitView.swift; sourceTree = "<group>"; };
+		746A09A92F8134DA0076A047 /* GoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsView.swift; sourceTree = "<group>"; };
+		746A09AA2F8134DA0076A047 /* HabitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitsView.swift; sourceTree = "<group>"; };
+		746A09AB2F8134DA0076A047 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		746A09AC2F8134DA0076A047 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		746A09AD2F8134DA0076A047 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		746A09AE2F8134DA0076A047 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		746A09B12F8134DA0076A047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		746A09B22F8134DA0076A047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		746A09B32F8134DA0076A047 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		746A09B42F8134DA0076A047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		746A09B52F8134DA0076A047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		746A09B72F8134DA0076A047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		746A09B92F8134DA0076A047 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		746A09BA2F8134DA0076A047 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B6A3627FFC16A32E00DF044F /* Pods_107GreenSteps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_107GreenSteps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9E017461F609DFF3BFF4FED /* Pods-107GreenSteps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-107GreenSteps.debug.xcconfig"; path = "Target Support Files/Pods-107GreenSteps/Pods-107GreenSteps.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		7451FBCE2F73B53B00C72359 /* Exceptions for "107GreenSteps" folder in "107GreenSteps" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 7451FBBB2F73B53A00C72359 /* 107GreenSteps */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		7451FBBE2F73B53A00C72359 /* 107GreenSteps */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				7451FBCE2F73B53B00C72359 /* Exceptions for "107GreenSteps" folder in "107GreenSteps" target */,
-			);
-			path = 107GreenSteps;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7451FBB92F73B53A00C72359 /* Frameworks */ = {
@@ -42,11 +98,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67A610EFF88B956AFCC5377E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B6A3627FFC16A32E00DF044F /* Pods_107GreenSteps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7451FBB32F73B53A00C72359 = {
 			isa = PBXGroup;
 			children = (
-				7451FBBE2F73B53A00C72359 /* 107GreenSteps */,
+				746A09BB2F8134DA0076A047 /* 107GreenSteps */,
 				7451FBBD2F73B53A00C72359 /* Products */,
+				A66E7BEA7CED4EB76DC4D2DC /* Pods */,
+				67A610EFF88B956AFCC5377E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +124,114 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		746A098F2F8134DA0076A047 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				746A098E2F8134DA0076A047 /* Color+GreenSteps.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		746A09922F8134DA0076A047 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				746A09902F8134DA0076A047 /* AppLinks.swift */,
+				746A09912F8134DA0076A047 /* DateFormatting.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		746A09992F8134DA0076A047 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				746A09932F8134DA0076A047 /* EcoAction.swift */,
+				746A09942F8134DA0076A047 /* EcoChallenge.swift */,
+				746A09952F8134DA0076A047 /* EcoGoal.swift */,
+				746A09962F8134DA0076A047 /* EcoHabit.swift */,
+				746A09972F8134DA0076A047 /* EcoStats.swift */,
+				746A09982F8134DA0076A047 /* HabitCategory.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		746A099B2F8134DA0076A047 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				746A099A2F8134DA0076A047 /* GreenStepsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		746A09A12F8134DA0076A047 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				746A099C2F8134DA0076A047 /* ActionRow.swift */,
+				746A099D2F8134DA0076A047 /* GoalCard.swift */,
+				746A099E2F8134DA0076A047 /* HabitCard.swift */,
+				746A099F2F8134DA0076A047 /* HabitDetailCard.swift */,
+				746A09A02F8134DA0076A047 /* StatCard.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		746A09AF2F8134DA0076A047 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				746A09A22F8134DA0076A047 /* AddActionView.swift */,
+				746A09A32F8134DA0076A047 /* AddGoalView.swift */,
+				746A09A42F8134DA0076A047 /* AddHabitView.swift */,
+				746A09A52F8134DA0076A047 /* DashboardView.swift */,
+				746A09A62F8134DA0076A047 /* EditActionView.swift */,
+				746A09A72F8134DA0076A047 /* EditGoalView.swift */,
+				746A09A82F8134DA0076A047 /* EditHabitView.swift */,
+				746A09A92F8134DA0076A047 /* GoalsView.swift */,
+				746A09AA2F8134DA0076A047 /* HabitsView.swift */,
+				746A09AB2F8134DA0076A047 /* HomeView.swift */,
+				746A09AC2F8134DA0076A047 /* OnboardingView.swift */,
+				746A09AD2F8134DA0076A047 /* SettingsView.swift */,
+				746A09AE2F8134DA0076A047 /* StatsView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		746A09B02F8134DA0076A047 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				746A09A12F8134DA0076A047 /* Components */,
+				746A09AF2F8134DA0076A047 /* Screens */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		746A09BB2F8134DA0076A047 /* 107GreenSteps */ = {
+			isa = PBXGroup;
+			children = (
+				746A098F2F8134DA0076A047 /* Extensions */,
+				746A09922F8134DA0076A047 /* Helpers */,
+				746A09992F8134DA0076A047 /* Models */,
+				746A099B2F8134DA0076A047 /* ViewModels */,
+				746A09B02F8134DA0076A047 /* Views */,
+				746A09B12F8134DA0076A047 /* AppDelegate.swift */,
+				746A09B22F8134DA0076A047 /* Assets.xcassets */,
+				746A09B32F8134DA0076A047 /* ContentView.swift */,
+				746A09B42F8134DA0076A047 /* Info.plist */,
+				746A09B62F8134DA0076A047 /* LaunchScreen.storyboard */,
+				746A09B82F8134DA0076A047 /* Main.storyboard */,
+				746A09B92F8134DA0076A047 /* SceneDelegate.swift */,
+				746A09BA2F8134DA0076A047 /* ViewController.swift */,
+			);
+			path = 107GreenSteps;
+			sourceTree = "<group>";
+		};
+		A66E7BEA7CED4EB76DC4D2DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9E017461F609DFF3BFF4FED /* Pods-107GreenSteps.debug.xcconfig */,
+				59821C911EDB12ADC8A988C0 /* Pods-107GreenSteps.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +239,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7451FBCF2F73B53B00C72359 /* Build configuration list for PBXNativeTarget "107GreenSteps" */;
 			buildPhases = (
+				45AD41A4AF7456BAF5878D57 /* [CP] Check Pods Manifest.lock */,
 				7451FBB82F73B53A00C72359 /* Sources */,
 				7451FBB92F73B53A00C72359 /* Frameworks */,
 				7451FBBA2F73B53A00C72359 /* Resources */,
@@ -73,12 +248,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				7451FBBE2F73B53A00C72359 /* 107GreenSteps */,
-			);
 			name = 107GreenSteps;
-			packageProductDependencies = (
-			);
 			productName = 107GreenSteps;
 			productReference = 7451FBBC2F73B53A00C72359 /* 107GreenSteps.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +269,7 @@
 				};
 			};
 			buildConfigurationList = 7451FBB72F73B53A00C72359 /* Build configuration list for PBXProject "107GreenSteps" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +277,6 @@
 				Base,
 			);
 			mainGroup = 7451FBB32F73B53A00C72359;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 7451FBBD2F73B53A00C72359 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +291,104 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746A09DC2F8134DA0076A047 /* Assets.xcassets in Resources */,
+				746A09DE2F8134DA0076A047 /* LaunchScreen.storyboard in Resources */,
+				746A09DF2F8134DA0076A047 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45AD41A4AF7456BAF5878D57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-107GreenSteps-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7451FBB82F73B53A00C72359 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746A09BC2F8134DA0076A047 /* Color+GreenSteps.swift in Sources */,
+				746A09BD2F8134DA0076A047 /* AppLinks.swift in Sources */,
+				746A09BE2F8134DA0076A047 /* DateFormatting.swift in Sources */,
+				746A09BF2F8134DA0076A047 /* EcoAction.swift in Sources */,
+				746A09C02F8134DA0076A047 /* EcoChallenge.swift in Sources */,
+				746A09C12F8134DA0076A047 /* EcoGoal.swift in Sources */,
+				746A09C22F8134DA0076A047 /* EcoHabit.swift in Sources */,
+				746A09C32F8134DA0076A047 /* EcoStats.swift in Sources */,
+				746A09C42F8134DA0076A047 /* HabitCategory.swift in Sources */,
+				746A09C52F8134DA0076A047 /* GreenStepsViewModel.swift in Sources */,
+				746A09C62F8134DA0076A047 /* ActionRow.swift in Sources */,
+				746A09C72F8134DA0076A047 /* GoalCard.swift in Sources */,
+				746A09C82F8134DA0076A047 /* HabitCard.swift in Sources */,
+				746A09C92F8134DA0076A047 /* HabitDetailCard.swift in Sources */,
+				746A09CA2F8134DA0076A047 /* StatCard.swift in Sources */,
+				746A09CB2F8134DA0076A047 /* AddActionView.swift in Sources */,
+				746A09CC2F8134DA0076A047 /* AddGoalView.swift in Sources */,
+				746A09CD2F8134DA0076A047 /* AddHabitView.swift in Sources */,
+				746A09CE2F8134DA0076A047 /* DashboardView.swift in Sources */,
+				746A09CF2F8134DA0076A047 /* EditActionView.swift in Sources */,
+				746A09D02F8134DA0076A047 /* EditGoalView.swift in Sources */,
+				746A09D12F8134DA0076A047 /* EditHabitView.swift in Sources */,
+				746A09D22F8134DA0076A047 /* GoalsView.swift in Sources */,
+				746A09D32F8134DA0076A047 /* HabitsView.swift in Sources */,
+				746A09D42F8134DA0076A047 /* HomeView.swift in Sources */,
+				746A09D52F8134DA0076A047 /* OnboardingView.swift in Sources */,
+				746A09D62F8134DA0076A047 /* SettingsView.swift in Sources */,
+				746A09D72F8134DA0076A047 /* StatsView.swift in Sources */,
+				746A09D82F8134DA0076A047 /* AppDelegate.swift in Sources */,
+				746A09D92F8134DA0076A047 /* ContentView.swift in Sources */,
+				746A09DA2F8134DA0076A047 /* SceneDelegate.swift in Sources */,
+				746A09DB2F8134DA0076A047 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		746A09B62F8134DA0076A047 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				746A09B52F8134DA0076A047 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		746A09B82F8134DA0076A047 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				746A09B72F8134DA0076A047 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		7451FBD02F73B53B00C72359 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E017461F609DFF3BFF4FED /* Pods-107GreenSteps.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +396,37 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 107GreenSteps/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "GreenSteps!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-07GreenSteps";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juh.gr83nst0ps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		7451FBD12F73B53B00C72359 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59821C911EDB12ADC8A988C0 /* Pods-107GreenSteps.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +434,31 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 107GreenSteps/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "GreenSteps!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-07GreenSteps";
+				PRODUCT_BUNDLE_IDENTIFIER = com.juh.gr83nst0ps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
