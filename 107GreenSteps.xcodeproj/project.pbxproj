@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		745C010B2F8806A200C60853 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C01062F8806A200C60853 /* PersistenceManager.swift */; };
+		745C010C2F8806A200C60853 /* SaveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C01082F8806A200C60853 /* SaveService.swift */; };
+		745C010D2F8806A200C60853 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C01052F8806A200C60853 /* AppRouter.swift */; };
+		745C010E2F8806A200C60853 /* PrivacyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C01072F8806A200C60853 /* PrivacyWebView.swift */; };
+		745C010F2F8806A200C60853 /* StartMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745C01092F8806A200C60853 /* StartMainView.swift */; };
 		746A09BC2F8134DA0076A047 /* Color+GreenSteps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A098E2F8134DA0076A047 /* Color+GreenSteps.swift */; };
 		746A09BD2F8134DA0076A047 /* AppLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A09902F8134DA0076A047 /* AppLinks.swift */; };
 		746A09BE2F8134DA0076A047 /* DateFormatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A09912F8134DA0076A047 /* DateFormatting.swift */; };
@@ -47,6 +52,11 @@
 /* Begin PBXFileReference section */
 		59821C911EDB12ADC8A988C0 /* Pods-107GreenSteps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-107GreenSteps.release.xcconfig"; path = "Target Support Files/Pods-107GreenSteps/Pods-107GreenSteps.release.xcconfig"; sourceTree = "<group>"; };
 		7451FBBC2F73B53A00C72359 /* 107GreenSteps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 107GreenSteps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		745C01052F8806A200C60853 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		745C01062F8806A200C60853 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		745C01072F8806A200C60853 /* PrivacyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyWebView.swift; sourceTree = "<group>"; };
+		745C01082F8806A200C60853 /* SaveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveService.swift; sourceTree = "<group>"; };
+		745C01092F8806A200C60853 /* StartMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMainView.swift; sourceTree = "<group>"; };
 		746A098E2F8134DA0076A047 /* Color+GreenSteps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+GreenSteps.swift"; sourceTree = "<group>"; };
 		746A09902F8134DA0076A047 /* AppLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLinks.swift; sourceTree = "<group>"; };
 		746A09912F8134DA0076A047 /* DateFormatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatting.swift; sourceTree = "<group>"; };
@@ -122,6 +132,18 @@
 				7451FBBC2F73B53A00C72359 /* 107GreenSteps.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		745C010A2F8806A200C60853 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				745C01052F8806A200C60853 /* AppRouter.swift */,
+				745C01062F8806A200C60853 /* PersistenceManager.swift */,
+				745C01072F8806A200C60853 /* PrivacyWebView.swift */,
+				745C01082F8806A200C60853 /* SaveService.swift */,
+				745C01092F8806A200C60853 /* StartMainView.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 		746A098F2F8134DA0076A047 /* Extensions */ = {
@@ -219,6 +241,7 @@
 				746A09B82F8134DA0076A047 /* Main.storyboard */,
 				746A09B92F8134DA0076A047 /* SceneDelegate.swift */,
 				746A09BA2F8134DA0076A047 /* ViewController.swift */,
+				745C010A2F8806A200C60853 /* Router */,
 			);
 			path = 107GreenSteps;
 			sourceTree = "<group>";
@@ -338,6 +361,11 @@
 				746A09C22F8134DA0076A047 /* EcoHabit.swift in Sources */,
 				746A09C32F8134DA0076A047 /* EcoStats.swift in Sources */,
 				746A09C42F8134DA0076A047 /* HabitCategory.swift in Sources */,
+				745C010B2F8806A200C60853 /* PersistenceManager.swift in Sources */,
+				745C010C2F8806A200C60853 /* SaveService.swift in Sources */,
+				745C010D2F8806A200C60853 /* AppRouter.swift in Sources */,
+				745C010E2F8806A200C60853 /* PrivacyWebView.swift in Sources */,
+				745C010F2F8806A200C60853 /* StartMainView.swift in Sources */,
 				746A09C52F8134DA0076A047 /* GreenStepsViewModel.swift in Sources */,
 				746A09C62F8134DA0076A047 /* ActionRow.swift in Sources */,
 				746A09C72F8134DA0076A047 /* GoalCard.swift in Sources */,
@@ -407,7 +435,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.juh.gr83nst0ps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -445,7 +473,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.juh.gr83nst0ps;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
